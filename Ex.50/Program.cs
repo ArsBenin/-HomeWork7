@@ -62,21 +62,7 @@ void FindElement(int[,] matr, int column, int line)
     {
         Console.WriteLine($"Элемент позиции [{column},{line}] равен {matr[column-1,line-1]}");
     }
-    /*for (int i=0; i < matr.GetLength(0); i++)
-    {
-        for (int j = 0; j < matr.GetLength(1); j++)
-            {
-            if (i==column && j==line)
-            {
-                Console.WriteLine($"Элемент позиции [{i},{j}] равен {matr[i,j]}");
-                break;
-            }
-                else
-            {
-                Console.WriteLine($"Элемента позиции [{column},{line}] в массиве нет");
-            }
-    }
-}*/
+
 }
 
 int m = GetNumber("Введите число строк массива");
