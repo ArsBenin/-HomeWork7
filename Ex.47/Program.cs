@@ -57,6 +57,6 @@ void FillArray(double[,] matr)
 int m = GetNumber("Введите число столбцов массива");
 int n = GetNumber("Введите число строк массива");
 
-double[,] table = new double[m, n];
-FillArray(table);
-PrintArray(table);
+double[,] matrix = new double[m, n];
+FillArray(matrix);
+PrintArray(matrix);
