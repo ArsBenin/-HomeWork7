@@ -67,10 +67,10 @@ void FindElement(int[,] matr, int column, int line)
 
 int m = GetNumber("Введите число строк массива");
 int n = GetNumber("Введите число столбцов массива");
-int [,] table = new int [m, n];
-FillArray(table);
-PrintArray(table);
+int [,] matrix = new int [m, n];
+FillArray(matrix);
+PrintArray(matrix);
 int column = GetNumber("Введите столбец элемента массива");
 int line = GetNumber("Введите строку элемента массива");
-FindElement(table,line,column);
+FindElement(matrix,line,column);
 
