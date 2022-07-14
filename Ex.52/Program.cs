@@ -62,7 +62,7 @@ void AverageColumns(int[,] matr)
             summ = summ + matr[i,j];
             }
         average = summ/matr.GetLength(0);
-        Console.WriteLine($"Среднее арифметическое элементов столбца {j+1} сумма {summ} равно {average}");
+        Console.WriteLine($"Среднее арифметическое элементов столбца {j+1} равно {average}");
         Console.WriteLine();
     }
 }
